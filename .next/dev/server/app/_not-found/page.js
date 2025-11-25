@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/545d0_next_dist_75726ed4._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__745101ff._.js")
+R.c("server/chunks/ssr/545d0_next_dist_2e8d4467._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__7f148858._.js")
+R.c("server/chunks/ssr/545d0_b1a119df._.js")
+R.c("server/chunks/ssr/545d0_d0d5d0a3._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__5af9a1f9._.js")
+R.c("server/chunks/ssr/545d0_next_dist_client_components_711b23f2._.js")
+R.c("server/chunks/ssr/545d0_next_dist_client_components_builtin_forbidden_8b3c5c0a.js")
+R.c("server/chunks/ssr/peak-commerce-app_4c7035cf._.js")
+R.m("[project]/peak-commerce-app/node_modules/next/dist/esm/build/templates/app-page.js?page=/_not-found/page { MODULE_0 => \"[project]/peak-commerce-app/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_1 => \"[project]/peak-commerce-app/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_2 => \"[project]/peak-commerce-app/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_3 => \"[project]/peak-commerce-app/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_4 => \"[project]/peak-commerce-app/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)\" } [app-rsc] (ecmascript)")
+module.exports=R.m("[project]/peak-commerce-app/node_modules/next/dist/esm/build/templates/app-page.js?page=/_not-found/page { MODULE_0 => \"[project]/peak-commerce-app/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_1 => \"[project]/peak-commerce-app/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_2 => \"[project]/peak-commerce-app/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_3 => \"[project]/peak-commerce-app/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_4 => \"[project]/peak-commerce-app/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)\" } [app-rsc] (ecmascript)").exports
