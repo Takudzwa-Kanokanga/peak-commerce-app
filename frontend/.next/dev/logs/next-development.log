@@ -1,0 +1,63 @@
+[00:00:19.228] Server  LOG      ✓ Ready in 12.4s
+[00:03:46.193] Server  LOG      ○ Compiling / ...
+[00:04:56.919] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:04:57.283] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <ClerkProviderBase publishableKey="pk_test_d2..." proxyUrl="" domain="" isSatellite={false} signInUrl="" signUpUrl="" ...>
+      <ClerkContextProvider initialState={null} isomorphicClerkOptions={{...}}>
+        <OrganizationProvider organization={undefined}>
+          <SWRConfigCompat swrConfig={undefined}>
+            <SWRConfig value={undefined}>
+              <__experimental_CheckoutProvider value={undefined}>
+                <RouterTelemetry>
+                <ClerkJSScript>
+                <html lang="en" suppressHydrationWarning={true}>
+                  <body
+                    className="inter_b2991b2-module__9mH_6q__variable playfair_display_b7700c01-module__LbZqPq__variab..."
+-                   data-new-gr-c-s-check-loaded="14.1129.0"
+-                   data-gr-ext-installed=""
+                  >
+
+[00:04:58.385] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:04:58.385] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:04:58.385] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764652150611}
+[00:05:04.372] Server  LOG      ○ Compiling /admin ...
+[00:05:27.170] Server  ERROR   C:\Users\uncommonstudent\Desktop\Software Dev Specialization\peak-commerce-app\frontend\.next\dev\server\chunks\ssr\54b5e_3c3d9293._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:27.327] Server  ERROR   C:\Users\uncommonstudent\Desktop\Software Dev Specialization\peak-commerce-app\frontend\.next\dev\server\chunks\ssr\Software Dev Specialization_peak-commerce-app_frontend_2d35b52c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:27.388] Server  ERROR    ⨯ Error: Clerk: auth() was called but Clerk can't detect usage of clerkMiddleware(). Please ensure the following:
+- Your Middleware exists at ./middleware.(ts|js)
+- clerkMiddleware() is used in your Next.js Middleware.
+- Your Middleware matcher is configured to match this route or page.
+- If you are using the src directory, make sure the Middleware file is inside of it.
+
+For more details, see https://clerk.com/err/auth-middleware
+
+[00:05:27.749] Server  ERROR   C:\Users\uncommonstudent\Desktop\Software Dev Specialization\peak-commerce-app\frontend\.next\dev\server\chunks\ssr\54b5e_3c3d9293._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:27.994] Server  ERROR   C:\Users\uncommonstudent\Desktop\Software Dev Specialization\peak-commerce-app\frontend\.next\dev\server\chunks\ssr\Software Dev Specialization_peak-commerce-app_frontend_2d35b52c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:28.092] Server  ERROR    ⨯ Error: Clerk: auth() was called but Clerk can't detect usage of clerkMiddleware(). Please ensure the following:
+- Your Middleware exists at ./middleware.(ts|js)
+- clerkMiddleware() is used in your Next.js Middleware.
+- Your Middleware matcher is configured to match this route or page.
+- If you are using the src directory, make sure the Middleware file is inside of it.
+
+For more details, see https://clerk.com/err/auth-middleware
+
+[00:05:29.242] Browser ERROR   uncaughtError: Error: Clerk: auth() was called but Clerk can't detect usage of clerkMiddleware(). Please ensure the following:
+- Your Middleware exists at ./middleware.(ts|js)
+- clerkMiddleware() is used in your Next.js Middleware.
+- Your Middleware matcher is configured to match this route or page.
+- If you are using the src directory, make sure the Middleware file is inside of it.
+
+For more details, see https://clerk.com/err/auth-middleware
+
