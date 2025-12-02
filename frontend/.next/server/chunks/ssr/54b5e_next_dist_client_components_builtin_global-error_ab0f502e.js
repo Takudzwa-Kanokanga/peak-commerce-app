@@ -1,0 +1,3 @@
+module.exports=[98059,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(7178);a.n(d("[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},54704,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(7178);a.n(d("[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/next/dist/client/components/builtin/global-error.js"))},63197,a=>{"use strict";a.i(98059);var b=a.i(54704);a.n(b)}];
+
+//# sourceMappingURL=54b5e_next_dist_client_components_builtin_global-error_ab0f502e.js.map

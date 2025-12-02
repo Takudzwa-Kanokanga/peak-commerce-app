@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../../../Software%20Dev%20Specialization/peak-commerce-app/frontend/app/admin/products/loading.tsx"],"sourcesContent":["export default function Loading() {\r\n  return null\r\n}\r\n"],"names":[],"mappings":"uCAAe,SAAS,IACtB,OAAO,IACT"}

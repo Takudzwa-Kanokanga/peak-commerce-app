@@ -1,6 +1,10 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/products/[id]/route.js")
-R.c("server/chunks/node_modules_next_dbfb09dc._.js")
-R.c("server/chunks/[root-of-the-server]__4d82fae1._.js")
-R.c("server/chunks/_next-internal_server_app_api_products_[id]_route_actions_60052b14.js")
-R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/products/[id]/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)")
-module.exports=R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/products/[id]/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports
+R.c("server/chunks/54b5e_69e7942d._.js")
+R.c("server/chunks/54b5e_next_c5708189._.js")
+R.c("server/chunks/54b5e_@clerk_backend_dist_8d1ae899._.js")
+R.c("server/chunks/54b5e_@clerk_nextjs_dist_esm_8fcc3ce1._.js")
+R.c("server/chunks/54b5e_a4216fac._.js")
+R.c("server/chunks/[root-of-the-server]__a76072a1._.js")
+R.c("server/chunks/1315e_frontend__next-internal_server_app_api_products_[id]_route_actions_6bc80880.js")
+R.m("[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/app/api/products/[id]/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/app/api/products/[id]/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports

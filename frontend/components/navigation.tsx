@@ -38,9 +38,16 @@ export default function Navigation() {
             </Link>
 
             {isSignedIn ? (
-              <Link href="/admin" className="p-2 text-gray-700 hover:text-primary transition-colors">
-                <User className="w-6 h-6" />
-              </Link>
+              <div className="flex items-center gap-2">
+                <Link href="/admin" className="hidden lg:block p-2 text-gray-700 hover:text-primary transition-colors">
+                  <User className="w-6 h-6" />
+                </Link>
+                <SignOutButton>
+                  <button className="hidden lg:block p-2 text-gray-700 hover:text-red-600 transition-colors">
+                    <LogOut className="w-6 h-6" />
+                  </button>
+                </SignOutButton>
+              </div>
             ) : (
               <div className="flex items-center gap-2">
                 <Link href="/sign-in" className="hidden lg:block text-sm font-medium text-gray-700 hover:text-primary transition-colors">
@@ -107,14 +114,25 @@ export default function Navigation() {
                 </Link>
               </>
             ) : (
-              <SignOutButton>
-                <button
-                  className="block w-full text-left text-sm font-medium text-red-600 hover:text-red-800 transition-colors py-2"
+              <>
+                <Link
+                  href="/admin"
+                  className="flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-primary transition-colors py-2"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  Sign Out
-                </button>
-              </SignOutButton>
+                  <User className="w-4 h-4" />
+                  Admin
+                </Link>
+                <SignOutButton>
+                  <button
+                    className="flex items-center gap-2 w-full text-left text-sm font-medium text-red-600 hover:text-red-800 transition-colors py-2"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    <LogOut className="w-4 h-4" />
+                    Sign Out
+                  </button>
+                </SignOutButton>
+              </>
             )}
           </div>
         </div>

@@ -16,6 +16,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specializatio
 var __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/lucide-react/dist/esm/icons/x.js [app-client] (ecmascript) <export default as X>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shopping$2d$cart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ShoppingCart$3e$__ = __turbopack_context__.i("[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/lucide-react/dist/esm/icons/shopping-cart.js [app-client] (ecmascript) <export default as ShoppingCart>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__ = __turbopack_context__.i("[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/lucide-react/dist/esm/icons/user.js [app-client] (ecmascript) <export default as User>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$log$2d$out$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__LogOut$3e$__ = __turbopack_context__.i("[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/lucide-react/dist/esm/icons/log-out.js [app-client] (ecmascript) <export default as LogOut>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
@@ -119,17 +120,46 @@ function Navigation() {
                                     lineNumber: 35,
                                     columnNumber: 13
                                 }, this),
-                                isSignedIn ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    href: "/admin",
-                                    className: "p-2 text-gray-700 hover:text-primary transition-colors",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__["User"], {
-                                        className: "w-6 h-6"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                        lineNumber: 42,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
+                                isSignedIn ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex items-center gap-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/admin",
+                                            className: "hidden lg:block p-2 text-gray-700 hover:text-primary transition-colors",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__["User"], {
+                                                className: "w-6 h-6"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
+                                                lineNumber: 43,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
+                                            lineNumber: 42,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f40$clerk$2f$clerk$2d$react$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["SignOutButton"], {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                className: "hidden lg:block p-2 text-gray-700 hover:text-red-600 transition-colors",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$log$2d$out$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__LogOut$3e$__["LogOut"], {
+                                                    className: "w-6 h-6"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
+                                                    lineNumber: 47,
+                                                    columnNumber: 21
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
+                                                lineNumber: 46,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
+                                            lineNumber: 45,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
                                     lineNumber: 41,
                                     columnNumber: 15
@@ -142,7 +172,7 @@ function Navigation() {
                                             children: "Sign In"
                                         }, void 0, false, {
                                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                            lineNumber: 46,
+                                            lineNumber: 53,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -151,13 +181,13 @@ function Navigation() {
                                             children: "Sign Up"
                                         }, void 0, false, {
                                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                            lineNumber: 49,
+                                            lineNumber: 56,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                    lineNumber: 45,
+                                    lineNumber: 52,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -167,18 +197,18 @@ function Navigation() {
                                         className: "w-6 h-6"
                                     }, void 0, false, {
                                         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                        lineNumber: 60,
+                                        lineNumber: 67,
                                         columnNumber: 33
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                         className: "w-6 h-6"
                                     }, void 0, false, {
                                         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                        lineNumber: 60,
+                                        lineNumber: 67,
                                         columnNumber: 61
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                    lineNumber: 56,
+                                    lineNumber: 63,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -208,7 +238,7 @@ function Navigation() {
                         children: "Home"
                     }, void 0, false, {
                         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                        lineNumber: 69,
+                        lineNumber: 76,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -218,7 +248,7 @@ function Navigation() {
                         children: "Shop"
                     }, void 0, false, {
                         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                        lineNumber: 76,
+                        lineNumber: 83,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -228,7 +258,7 @@ function Navigation() {
                         children: "About"
                     }, void 0, false, {
                         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                        lineNumber: 83,
+                        lineNumber: 90,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -242,7 +272,7 @@ function Navigation() {
                                     children: "Sign In"
                                 }, void 0, false, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                    lineNumber: 94,
+                                    lineNumber: 101,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -252,34 +282,66 @@ function Navigation() {
                                     children: "Sign Up"
                                 }, void 0, false, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                    lineNumber: 101,
+                                    lineNumber: 108,
                                     columnNumber: 17
                                 }, this)
                             ]
-                        }, void 0, true) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f40$clerk$2f$clerk$2d$react$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["SignOutButton"], {
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                className: "block w-full text-left text-sm font-medium text-red-600 hover:text-red-800 transition-colors py-2",
-                                onClick: ()=>setMobileMenuOpen(false),
-                                children: "Sign Out"
-                            }, void 0, false, {
-                                fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                lineNumber: 111,
-                                columnNumber: 17
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                            lineNumber: 110,
-                            columnNumber: 15
-                        }, this)
+                        }, void 0, true) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "/admin",
+                                    className: "flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-primary transition-colors py-2",
+                                    onClick: ()=>setMobileMenuOpen(false),
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__["User"], {
+                                            className: "w-4 h-4"
+                                        }, void 0, false, {
+                                            fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
+                                            lineNumber: 123,
+                                            columnNumber: 19
+                                        }, this),
+                                        "Admin"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
+                                    lineNumber: 118,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f40$clerk$2f$clerk$2d$react$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["SignOutButton"], {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        className: "flex items-center gap-2 w-full text-left text-sm font-medium text-red-600 hover:text-red-800 transition-colors py-2",
+                                        onClick: ()=>setMobileMenuOpen(false),
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$log$2d$out$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__LogOut$3e$__["LogOut"], {
+                                                className: "w-4 h-4"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
+                                                lineNumber: 131,
+                                                columnNumber: 21
+                                            }, this),
+                                            "Sign Out"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
+                                        lineNumber: 127,
+                                        columnNumber: 19
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
+                                    lineNumber: 126,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true)
                     }, void 0, false, {
                         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                        lineNumber: 91,
+                        lineNumber: 98,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                lineNumber: 68,
+                lineNumber: 75,
                 columnNumber: 9
             }, this)
         ]
