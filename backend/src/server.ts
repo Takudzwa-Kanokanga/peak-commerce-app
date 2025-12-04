@@ -2,6 +2,8 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import path from "path";
+import helmet from "helmet";
+import rateLimit from "express-rate-limit";
 dotenv.config();
 
 import productRoutes from "./routes/productRoutes";
@@ -12,12 +14,39 @@ import authRoutes from "./auth/routes";
 
 const app = express();
 
+// Basic security headers
+app.use(helmet());
+
+// Rate limiter
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100, // limit each IP to 100 requests per windowMs
+  standardHeaders: true,
+  legacyHeaders: false
+});
+app.use(limiter);
+
 // Allow requests from frontend
 app.use(cors({
   origin: process.env.FRONTEND_URL || "http://localhost:3001",
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
   credentials: true
 }));
+
+// Basic request sanitization: trim string fields to avoid leading/trailing whitespace
+app.use((req, _res, next) => {
+  const sanitize = (obj: any) => {
+    if (!obj || typeof obj !== "object") return;
+    for (const k of Object.keys(obj)) {
+      const v = obj[k];
+      if (typeof v === "string") obj[k] = v.trim();
+      else if (typeof v === "object") sanitize(v);
+    }
+  };
+  sanitize(req.body);
+  sanitize(req.query);
+  next();
+});
 
 app.use(express.json({ limit: "10mb" }));
 app.use(express.urlencoded({ limit: "10mb", extended: true }));

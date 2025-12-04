@@ -40,6 +40,8 @@ Create a `.env` file at project root (this repo includes an example `.env` with 
 - `MAIL_PASS` — SMTP password
 - `NODE_ENV` — `development` | `production` (optional)
 - `PORT` — port for the server (optional, default 3000)
+ - `STRIPE_SECRET_KEY` — Stripe secret key for test mode (optional)
+ - `REDIS_URL` — Redis connection string (optional) e.g. `redis://127.0.0.1:6379`
 
 Quickstart (local)
 1. Install dependencies

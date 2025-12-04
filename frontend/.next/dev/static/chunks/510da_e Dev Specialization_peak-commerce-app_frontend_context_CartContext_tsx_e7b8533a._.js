@@ -56,13 +56,13 @@ const CartProvider = ({ children })=>{
         isLoading
     ]);
     // Function to add a product to the cart (or increment quantity if it exists)
-    const addToCart = (product)=>{
+    const addToCart = (product, quantity = 1)=>{
         setCart((currentCart)=>{
             const existingItem = currentCart.find((item)=>item.id === product.id);
             if (existingItem) {
                 // Check stock availability
                 const maxQuantity = product.stock || Infinity;
-                const newQuantity = Math.min(existingItem.quantity + 1, maxQuantity);
+                const newQuantity = Math.min(existingItem.quantity + quantity, maxQuantity);
                 if (newQuantity > existingItem.quantity) {
                     return currentCart.map((item)=>item.id === product.id ? {
                             ...item,
@@ -72,12 +72,13 @@ const CartProvider = ({ children })=>{
                 setError('Not enough stock available');
                 return currentCart;
             } else {
-                // Add new product with quantity 1
+                // Add new product with requested quantity (bounded by stock)
+                const allowedQuantity = Math.min(quantity, product.stock || quantity);
                 return [
                     ...currentCart,
                     {
                         ...product,
-                        quantity: 1
+                        quantity: allowedQuantity
                     }
                 ];
             }
@@ -151,7 +152,7 @@ const CartProvider = ({ children })=>{
         children: children
     }, void 0, false, {
         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/context/CartContext.tsx",
-        lineNumber: 142,
+        lineNumber: 146,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

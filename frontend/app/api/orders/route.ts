@@ -1,5 +1,6 @@
 import { type NextRequest, NextResponse } from "next/server"
 import { auth } from "@clerk/nextjs/server"
+import { sendOrderConfirmationEmail, sendAdminOrderNotification } from "@/lib/mailtrap"
 
 // Mock database - replace with actual MongoDB
 let orders: any[] = []
@@ -34,9 +35,34 @@ export async function POST(request: NextRequest) {
 
     orders.push(order)
 
+    // Send order confirmation email to customer
+    const customerEmailData = {
+      orderId: order.id,
+      customerEmail: body.shippingInfo.email,
+      customerName: `${body.shippingInfo.firstName} ${body.shippingInfo.lastName}`,
+      items: body.items,
+      shippingInfo: body.shippingInfo,
+      total: body.total,
+      paymentMethod: body.paymentMethod || "card",
+      createdAt: order.createdAt,
+    }
+
+    const emailSent = await sendOrderConfirmationEmail(customerEmailData)
+
+    // Send admin notification email
+    if (process.env.ADMIN_EMAIL) {
+      await sendAdminOrderNotification(customerEmailData)
+    }
+
+    // Log email status for debugging
+    if (!emailSent) {
+      console.warn("Order confirmation email failed to send, but order was created:", order.id)
+    }
+
     return NextResponse.json({
       success: true,
       data: order,
+      emailSent,
     })
   } catch (error) {
     console.error("Error creating order:", error)

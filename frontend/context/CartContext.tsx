@@ -9,6 +9,7 @@ interface CartItem {
   name: string
   price: number
   image: string
+  category?: string
   quantity: number
   stock?: number
 }
@@ -16,7 +17,8 @@ interface CartItem {
 // Define the shape of the context
 interface CartContextType {
   cart: CartItem[]
-  addToCart: (product: Omit<CartItem, 'quantity'>) => void
+  // allow specifying a quantity when adding to cart
+  addToCart: (product: Omit<CartItem, 'quantity'>, quantity?: number) => void
   removeFromCart: (productId: number) => void
   updateQuantity: (productId: number, newQuantity: number) => void
   clearCart: () => void
@@ -65,25 +67,27 @@ export const CartProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   }, [cart, isLoading])
 
   // Function to add a product to the cart (or increment quantity if it exists)
-  const addToCart = (product: Omit<CartItem, 'quantity'>) => {
+  const addToCart = (product: Omit<CartItem, 'quantity'>, quantity: number = 1) => {
     setCart(currentCart => {
       const existingItem = currentCart.find(item => item.id === product.id)
-      
+
       if (existingItem) {
         // Check stock availability
         const maxQuantity = product.stock || Infinity
-        const newQuantity = Math.min(existingItem.quantity + 1, maxQuantity)
-        
+        const newQuantity = Math.min(existingItem.quantity + quantity, maxQuantity)
+
         if (newQuantity > existingItem.quantity) {
-          return currentCart.map(item => 
+          return currentCart.map(item =>
             item.id === product.id ? { ...item, quantity: newQuantity } : item
           )
         }
+
         setError('Not enough stock available')
         return currentCart
       } else {
-        // Add new product with quantity 1
-        return [...currentCart, { ...product, quantity: 1 }]
+        // Add new product with requested quantity (bounded by stock)
+        const allowedQuantity = Math.min(quantity, product.stock || quantity)
+        return [...currentCart, { ...product, quantity: allowedQuantity }]
       }
     })
   }

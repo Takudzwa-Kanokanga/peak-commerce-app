@@ -1087,7 +1087,7 @@ function ProductPage() {
                                                                 price: product.price,
                                                                 image: product.image,
                                                                 stock: product.stock
-                                                            });
+                                                            }, quantity);
                                                             setIsAdded(true);
                                                             setTimeout(()=>setIsAdded(false), 2000);
                                                         },

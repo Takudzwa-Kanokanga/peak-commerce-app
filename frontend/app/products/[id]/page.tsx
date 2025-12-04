@@ -7,6 +7,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { Star, ShoppingCart, Truck, Shield } from "lucide-react";
 import { useCart } from "@/context/CartContext";
+import PriceFormatter from "@/components/ui/price-formatter";
 
 export default function ProductPage() {
   const params = useParams();
@@ -89,13 +90,17 @@ export default function ProductPage() {
             {/* Image */}
             <div>
               <div className="bg-white rounded-lg overflow-hidden sticky top-24">
-                <Image
-                  src={product.image || "/placeholder.svg"}
-                  alt={product.name}
-                  width={600}
-                  height={600}
-                  className="w-full h-auto"
-                />
+                {product.image ? (
+                  <Image
+                    src={product.image}
+                    alt={product.name}
+                    width={600}
+                    height={600}
+                    className="w-full h-auto"
+                  />
+                ) : (
+                  <img src="/placeholder.svg" alt={product.name} className="w-full h-auto" />
+                )}
               </div>
             </div>
 
@@ -120,9 +125,9 @@ export default function ProductPage() {
                 {/* Price */}
                 <div className="mb-8">
                   <span className="text-4xl font-bold text-primary">
-                    ${Number(product.price ?? 0).toFixed(2)}
-                    </span>
-                    </div>
+                    <PriceFormatter amount={Number(product.price ?? 0)} currency="ZWL" />
+                  </span>
+                </div>
 
                 {/* Description */}
                 <p className="text-gray-700 mb-8 leading-relaxed">{product.description}</p>
@@ -181,7 +186,7 @@ export default function ProductPage() {
                         price: product.price,
                         image: product.image,
                         stock: product.stock,
-                      });
+                      }, quantity);
                       setIsAdded(true);
                       setTimeout(() => setIsAdded(false), 2000);
                     }}

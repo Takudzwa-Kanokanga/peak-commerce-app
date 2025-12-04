@@ -11,21 +11,18 @@ export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const router = useRouter()
   const { isSignedIn } = useAuth()
+
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white border-b border-border z-50">
       <div className="container-responsive">
         <div className="flex items-center justify-between py-4">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 text-primary font-serif text-xl font-semibold">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-white text-lg">◀</span>
-            </div>
-            Peak Commerce
-          </Link>
+          
+          {/* Empty left space where the logo was */}
+          <div className="w-8"></div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            <Link href="/" className="text-gray-700 hover:text-primary transition-colors"> Home </Link> {/* ADDED HOME LINK */}
+            <Link href="/" className="text-gray-700 hover:text-primary transition-colors"> Home </Link>
             <Link href="/shop" className="text-gray-700 hover:text-primary transition-colors"> Shop </Link>
             <Link href="/about" className="text-gray-700 hover:text-primary transition-colors"> About </Link>
           </div>
@@ -34,7 +31,6 @@ export default function Navigation() {
           <div className="flex items-center gap-4">
             <Link href="/cart" className="relative p-2 text-gray-700 hover:text-primary transition-colors">
               <ShoppingCart className="w-6 h-6" />
-              {/* <span className="absolute top-0 right-0 h-2 w-2 bg-red-500 rounded-full"></span> */}
             </Link>
 
             {isSignedIn ? (
@@ -74,7 +70,7 @@ export default function Navigation() {
       {mobileMenuOpen && (
         <div className="md:hidden absolute top-full left-0 right-0 bg-white border-b border-border shadow-lg p-6 space-y-4">
           <Link
-            href="/" // ADDED HOME LINK
+            href="/"
             className="block text-gray-700 hover:text-primary transition-colors py-2"
             onClick={() => setMobileMenuOpen(false)}
           >

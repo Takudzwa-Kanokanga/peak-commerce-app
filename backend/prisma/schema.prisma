@@ -27,6 +27,7 @@ model Product {
   price       Float
   sku         String?     @unique
   imageUrl    String?
+  images      ProductImage[]
   createdAt   DateTime    @default(now())
   updatedAt   DateTime    @updatedAt
   cartItems   CartItem[]
@@ -40,6 +41,19 @@ model Inventory {
   quantity  Int      @default(0)
   updatedAt DateTime @updatedAt
   product   Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+}
+
+model ProductImage {
+  id        String   @id @default(cuid())
+  productId String
+  url       String
+  alt       String?
+  position  Int      @default(0)
+  createdAt DateTime @default(now())
+
+  product   Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@index([productId])
 }
 
 model Cart {

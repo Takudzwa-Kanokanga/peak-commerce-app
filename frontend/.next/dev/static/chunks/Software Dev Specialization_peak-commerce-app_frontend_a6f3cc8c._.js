@@ -39,30 +39,11 @@ function Navigation() {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex items-center justify-between py-4",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/",
-                            className: "flex items-center gap-2 text-primary font-serif text-xl font-semibold",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "w-8 h-8 bg-primary rounded-lg flex items-center justify-center",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-white text-lg",
-                                        children: "◀"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                        lineNumber: 21,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                    lineNumber: 20,
-                                    columnNumber: 13
-                                }, this),
-                                "Peak Commerce"
-                            ]
-                        }, void 0, true, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "w-8"
+                        }, void 0, false, {
                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                            lineNumber: 19,
+                            lineNumber: 21,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -74,17 +55,16 @@ function Navigation() {
                                     children: " Home "
                                 }, void 0, false, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                    lineNumber: 28,
+                                    lineNumber: 25,
                                     columnNumber: 13
                                 }, this),
-                                " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/shop",
                                     className: "text-gray-700 hover:text-primary transition-colors",
                                     children: " Shop "
                                 }, void 0, false, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                    lineNumber: 29,
+                                    lineNumber: 26,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -93,13 +73,13 @@ function Navigation() {
                                     children: " About "
                                 }, void 0, false, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                    lineNumber: 30,
+                                    lineNumber: 27,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                            lineNumber: 27,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -112,12 +92,12 @@ function Navigation() {
                                         className: "w-6 h-6"
                                     }, void 0, false, {
                                         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                        lineNumber: 36,
+                                        lineNumber: 33,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                    lineNumber: 35,
+                                    lineNumber: 32,
                                     columnNumber: 13
                                 }, this),
                                 isSignedIn ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -130,12 +110,12 @@ function Navigation() {
                                                 className: "w-6 h-6"
                                             }, void 0, false, {
                                                 fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                                lineNumber: 43,
+                                                lineNumber: 39,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                            lineNumber: 42,
+                                            lineNumber: 38,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f40$clerk$2f$clerk$2d$react$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["SignOutButton"], {
@@ -145,23 +125,23 @@ function Navigation() {
                                                     className: "w-6 h-6"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                                    lineNumber: 47,
+                                                    lineNumber: 43,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                                lineNumber: 46,
+                                                lineNumber: 42,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                            lineNumber: 45,
+                                            lineNumber: 41,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                    lineNumber: 41,
+                                    lineNumber: 37,
                                     columnNumber: 15
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex items-center gap-2",
@@ -172,7 +152,7 @@ function Navigation() {
                                             children: "Sign In"
                                         }, void 0, false, {
                                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                            lineNumber: 53,
+                                            lineNumber: 49,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -181,13 +161,13 @@ function Navigation() {
                                             children: "Sign Up"
                                         }, void 0, false, {
                                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                            lineNumber: 56,
+                                            lineNumber: 52,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                    lineNumber: 52,
+                                    lineNumber: 48,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -197,35 +177,35 @@ function Navigation() {
                                         className: "w-6 h-6"
                                     }, void 0, false, {
                                         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                        lineNumber: 67,
+                                        lineNumber: 63,
                                         columnNumber: 33
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                         className: "w-6 h-6"
                                     }, void 0, false, {
                                         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                        lineNumber: 67,
+                                        lineNumber: 63,
                                         columnNumber: 61
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                    lineNumber: 63,
+                                    lineNumber: 59,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                            lineNumber: 34,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                    lineNumber: 17,
+                    lineNumber: 18,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                lineNumber: 16,
+                lineNumber: 17,
                 columnNumber: 7
             }, this),
             mobileMenuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -238,7 +218,7 @@ function Navigation() {
                         children: "Home"
                     }, void 0, false, {
                         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                        lineNumber: 76,
+                        lineNumber: 72,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -248,7 +228,7 @@ function Navigation() {
                         children: "Shop"
                     }, void 0, false, {
                         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                        lineNumber: 83,
+                        lineNumber: 79,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -258,7 +238,7 @@ function Navigation() {
                         children: "About"
                     }, void 0, false, {
                         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                        lineNumber: 90,
+                        lineNumber: 86,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -272,7 +252,7 @@ function Navigation() {
                                     children: "Sign In"
                                 }, void 0, false, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                    lineNumber: 101,
+                                    lineNumber: 97,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -282,7 +262,7 @@ function Navigation() {
                                     children: "Sign Up"
                                 }, void 0, false, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                    lineNumber: 108,
+                                    lineNumber: 104,
                                     columnNumber: 17
                                 }, this)
                             ]
@@ -297,14 +277,14 @@ function Navigation() {
                                             className: "w-4 h-4"
                                         }, void 0, false, {
                                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                            lineNumber: 123,
+                                            lineNumber: 119,
                                             columnNumber: 19
                                         }, this),
                                         "Admin"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                    lineNumber: 118,
+                                    lineNumber: 114,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f40$clerk$2f$clerk$2d$react$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["SignOutButton"], {
@@ -316,38 +296,38 @@ function Navigation() {
                                                 className: "w-4 h-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                                lineNumber: 131,
+                                                lineNumber: 127,
                                                 columnNumber: 21
                                             }, this),
                                             "Sign Out"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                        lineNumber: 127,
+                                        lineNumber: 123,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                                    lineNumber: 126,
+                                    lineNumber: 122,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true)
                     }, void 0, false, {
                         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                        lineNumber: 98,
+                        lineNumber: 94,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-                lineNumber: 75,
+                lineNumber: 71,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/components/navigation.tsx",
-        lineNumber: 15,
+        lineNumber: 16,
         columnNumber: 5
     }, this);
 }
@@ -696,9 +676,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specializatio
 var __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$filter$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Filter$3e$__ = __turbopack_context__.i("[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/lucide-react/dist/esm/icons/filter.js [app-client] (ecmascript) <export default as Filter>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__ = __turbopack_context__.i("[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/lucide-react/dist/esm/icons/search.js [app-client] (ecmascript) <export default as Search>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$context$2f$CartContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Software Dev Specialization/peak-commerce-app/frontend/context/CartContext.tsx [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
+;
 ;
 ;
 ;
@@ -751,6 +733,7 @@ const allProducts = [
 ];
 function ShopPage() {
     _s();
+    const { addToCart } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$context$2f$CartContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCart"])();
     const [selectedCategory, setSelectedCategory] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const [searchTerm, setSearchTerm] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
     const [sortOption, setSortOption] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("default");
@@ -807,7 +790,7 @@ function ShopPage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$components$2f$navigation$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                lineNumber: 76,
+                lineNumber: 78,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -823,7 +806,7 @@ function ShopPage() {
                                     children: "Shop Our Catalog"
                                 }, void 0, false, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                    lineNumber: 80,
+                                    lineNumber: 82,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -831,13 +814,13 @@ function ShopPage() {
                                     children: "Explore premium electronics and smart devices."
                                 }, void 0, false, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                    lineNumber: 81,
+                                    lineNumber: 83,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                            lineNumber: 79,
+                            lineNumber: 81,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -855,14 +838,14 @@ function ShopPage() {
                                                         className: "w-5 h-5 text-primary"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                        lineNumber: 90,
+                                                        lineNumber: 92,
                                                         columnNumber: 19
                                                     }, this),
                                                     " Filters"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                lineNumber: 89,
+                                                lineNumber: 91,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -874,7 +857,7 @@ function ShopPage() {
                                                         children: "All Products"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                        lineNumber: 94,
+                                                        lineNumber: 96,
                                                         columnNumber: 19
                                                     }, this),
                                                     categories.map((category)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -883,24 +866,24 @@ function ShopPage() {
                                                             children: category
                                                         }, category, false, {
                                                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                            lineNumber: 106,
+                                                            lineNumber: 108,
                                                             columnNumber: 21
                                                         }, this))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                lineNumber: 92,
+                                                lineNumber: 94,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                        lineNumber: 88,
+                                        lineNumber: 90,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                    lineNumber: 87,
+                                    lineNumber: 89,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -916,7 +899,7 @@ function ShopPage() {
                                                             className: "absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                            lineNumber: 128,
+                                                            lineNumber: 130,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -927,13 +910,13 @@ function ShopPage() {
                                                             className: "w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-primary"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                            lineNumber: 129,
+                                                            lineNumber: 131,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                    lineNumber: 127,
+                                                    lineNumber: 129,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -945,7 +928,7 @@ function ShopPage() {
                                                             children: "Sort by:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                            lineNumber: 140,
+                                                            lineNumber: 142,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -959,7 +942,7 @@ function ShopPage() {
                                                                     children: "Default"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                                    lineNumber: 147,
+                                                                    lineNumber: 149,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -967,7 +950,7 @@ function ShopPage() {
                                                                     children: "Price: Low to High"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                                    lineNumber: 148,
+                                                                    lineNumber: 150,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -975,7 +958,7 @@ function ShopPage() {
                                                                     children: "Price: High to Low"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                                    lineNumber: 149,
+                                                                    lineNumber: 151,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -983,25 +966,25 @@ function ShopPage() {
                                                                     children: "Name: A-Z"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                                    lineNumber: 150,
+                                                                    lineNumber: 152,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                            lineNumber: 141,
+                                                            lineNumber: 143,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                    lineNumber: 139,
+                                                    lineNumber: 141,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                            lineNumber: 125,
+                                            lineNumber: 127,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1018,7 +1001,7 @@ function ShopPage() {
                                                             className: "w-full h-48 object-cover group-hover:scale-[1.02] transition-transform duration-300"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                            lineNumber: 165,
+                                                            lineNumber: 167,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1029,7 +1012,7 @@ function ShopPage() {
                                                                     children: product.category
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                                    lineNumber: 173,
+                                                                    lineNumber: 175,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1037,7 +1020,7 @@ function ShopPage() {
                                                                     children: product.name
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                                    lineNumber: 174,
+                                                                    lineNumber: 176,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1051,43 +1034,52 @@ function ShopPage() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                                            lineNumber: 177,
+                                                                            lineNumber: 179,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                             className: "p-2 bg-primary text-white rounded-lg hover:bg-primary-dark transition-colors",
                                                                             onClick: (e)=>{
+                                                                                // prevent the Link navigation and quick-add quantity 1
                                                                                 e.preventDefault();
+                                                                                e.stopPropagation();
+                                                                                addToCart({
+                                                                                    id: product.id,
+                                                                                    name: product.name,
+                                                                                    price: product.price,
+                                                                                    image: product.image,
+                                                                                    category: product.category
+                                                                                }, 1);
                                                                             },
                                                                             title: "Add to Cart",
                                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shopping$2d$cart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ShoppingCart$3e$__["ShoppingCart"], {
                                                                                 className: "w-5 h-5"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                                                lineNumber: 184,
+                                                                                lineNumber: 197,
                                                                                 columnNumber: 29
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                                            lineNumber: 179,
+                                                                            lineNumber: 181,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                                    lineNumber: 175,
+                                                                    lineNumber: 177,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                            lineNumber: 172,
+                                                            lineNumber: 174,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, product.id, true, {
                                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                    lineNumber: 159,
+                                                    lineNumber: 161,
                                                     columnNumber: 21
                                                 }, this)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "col-span-full text-center py-12 text-gray-500 bg-white rounded-xl shadow-lg",
@@ -1097,7 +1089,7 @@ function ShopPage() {
                                                         children: "No products found matching your criteria."
                                                     }, void 0, false, {
                                                         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                        lineNumber: 192,
+                                                        lineNumber: 205,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1110,56 +1102,60 @@ function ShopPage() {
                                                         children: "Clear Filters"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                        lineNumber: 193,
+                                                        lineNumber: 206,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                                lineNumber: 191,
+                                                lineNumber: 204,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                            lineNumber: 156,
+                                            lineNumber: 158,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                                    lineNumber: 123,
+                                    lineNumber: 125,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                            lineNumber: 84,
+                            lineNumber: 86,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                    lineNumber: 78,
+                    lineNumber: 80,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                lineNumber: 77,
+                lineNumber: 79,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$components$2f$footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-                lineNumber: 210,
+                lineNumber: 223,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Software Dev Specialization/peak-commerce-app/frontend/app/shop/page.tsx",
-        lineNumber: 75,
+        lineNumber: 77,
         columnNumber: 5
     }, this);
 }
-_s(ShopPage, "eXRrAx+E8+hufZpcEci13o1Nviw=");
+_s(ShopPage, "ukRo3lep7Y6f8ZD4agIlQ7m5mU4=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$context$2f$CartContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCart"]
+    ];
+});
 _c = ShopPage;
 var _c;
 __turbopack_context__.k.register(_c, "ShopPage");

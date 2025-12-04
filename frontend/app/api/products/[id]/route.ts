@@ -65,7 +65,8 @@ let products: Record<string, any> = {
   },
 }
 
-export async function GET(request: NextRequest, { params }: { params: { id: string } }) {
+export async function GET(request: NextRequest, context: any) {
+  const { params } = context
   try {
     const product = products[params.id]
 
@@ -82,7 +83,8 @@ export async function GET(request: NextRequest, { params }: { params: { id: stri
   }
 }
 
-export async function PATCH(request: NextRequest, { params }: { params: { id: string } }) {
+export async function PATCH(request: NextRequest, context: any) {
+  const { params } = context
   try {
     const { userId } = await auth()
 
@@ -136,7 +138,8 @@ export async function PATCH(request: NextRequest, { params }: { params: { id: st
   }
 }
 
-export async function DELETE(request: NextRequest, { params }: { params: { id: string } }) {
+export async function DELETE(request: NextRequest, context: any) {
+  const { params } = context
   try {
     const { userId } = await auth()
 

@@ -38,12 +38,30 @@ export const listProducts = async (req: Request, res: Response) => {
     const products = await prisma.product.findMany({
       take: limit,
       skip: (page - 1) * limit,
-      include: { inventory: true },
+      include: { inventory: true, images: true },
       orderBy: { createdAt: "desc" },
     });
 
-    await safeSet(cacheKey, products, 30);
-    res.json(products);
+    // Prefer relational images, fallback to legacy imageUrl
+    const normalized = products.map((p) => {
+      let images: string[] = [];
+      if (p.images && p.images.length > 0) {
+        images = p.images.map((i) => i.url);
+      } else {
+        try {
+          if (p.imageUrl) {
+            const parsed = JSON.parse(p.imageUrl as any);
+            images = Array.isArray(parsed) ? parsed : [String(parsed)];
+          }
+        } catch {
+          if (typeof p.imageUrl === "string") images = [p.imageUrl];
+        }
+      }
+      return { ...p, images };
+    });
+
+    await safeSet(cacheKey, normalized, "EX", 30);
+    res.json(normalized);
   } catch (err) {
     res.status(500).json({ error: "Server error", details: err });
   }
@@ -60,13 +78,29 @@ export const getProduct = async (req: Request, res: Response) => {
 
     const product = await prisma.product.findUnique({
       where: { id },
-      include: { inventory: true },
+      include: { inventory: true, images: true },
     });
 
     if (!product) return res.status(404).json({ error: "Product not found" });
 
-    await safeSet(cacheKey, product, 60);
-    res.json(product);
+    let images: string[] = [];
+    if (product.images && product.images.length > 0) {
+      images = product.images.map((i) => i.url);
+    } else {
+      try {
+        if (product.imageUrl) {
+          const parsed = JSON.parse(product.imageUrl as any);
+          images = Array.isArray(parsed) ? parsed : [String(parsed)];
+        }
+      } catch {
+        if (typeof product.imageUrl === "string") images = [product.imageUrl];
+      }
+    }
+
+    const normalized = { ...product, images };
+
+    await safeSet(cacheKey, normalized, "EX", 60);
+    res.json(normalized);
   } catch (err) {
     res.status(500).json({ error: "Server error", details: err });
   }
@@ -82,9 +116,15 @@ export const createProduct = async (req: Request, res: Response) => {
     const data = parsed.data;
     
     // Get image URL if file was uploaded
-    const imageUrl = (req as any).file 
-      ? `/uploads/${(req as any).file.filename}` 
-      : data.imageUrl;
+    let imageUrl: string | null = null;
+    // Support multiple files (images) or single file
+    const files = (req as any).files || (req as any).file ? (req as any).files || [(req as any).file] : null;
+    if (files && Array.isArray(files) && files.length > 0) {
+      const urls = files.map((f: any) => `/uploads/${f.filename}`);
+      imageUrl = JSON.stringify(urls);
+    } else if (data.imageUrl) {
+      imageUrl = typeof data.imageUrl === "string" ? data.imageUrl : JSON.stringify(data.imageUrl);
+    }
 
     const product = await prisma.product.create({
       data: {
@@ -95,6 +135,14 @@ export const createProduct = async (req: Request, res: Response) => {
         imageUrl: imageUrl ?? null,
       },
     });
+
+    // If files were uploaded, create ProductImage records and keep legacy imageUrl as first image
+    if (files && Array.isArray(files) && files.length > 0) {
+      const imageRecords = files.map((f: any, idx: number) => ({ productId: product.id, url: `/uploads/${f.filename}`, position: idx }));
+      await prisma.productImage.createMany({ data: imageRecords });
+      // Update imageUrl to first image for backward compatibility
+      await prisma.product.update({ where: { id: product.id }, data: { imageUrl: imageRecords[0].url } });
+    }
 
     if (data.inventory) {
       await prisma.inventory.create({
@@ -116,14 +164,19 @@ export const updateProduct = async (req: Request, res: Response) => {
 
     const updateData: any = req.body;
     
-    // Add uploaded image URL if provided
-    if ((req as any).file) {
-      updateData.imageUrl = `/uploads/${(req as any).file.filename}`;
+    // Add uploaded image records if provided
+    const files = (req as any).files || (req as any).file ? (req as any).files || [(req as any).file] : null;
+    if (files && Array.isArray(files) && files.length > 0) {
+      const imageRecords = files.map((f: any, idx: number) => ({ productId: id, url: `/uploads/${f.filename}`, position: idx }));
+      await prisma.productImage.createMany({ data: imageRecords });
+      // Set legacy imageUrl to first image
+      updateData.imageUrl = imageRecords[0].url;
     }
 
     const updated = await prisma.product.update({
       where: { id },
       data: updateData,
+      include: { images: true }
     });
 
     await safeDeletePattern("products:*");
@@ -150,5 +203,34 @@ export const deleteProduct = async (req: Request, res: Response) => {
     res.status(204).send();
   } catch (err) {
     res.status(500).json({ error: "Delete failed", details: err });
+  }
+};
+
+// POST /products/:id/restock
+export const restockProduct = async (req: Request, res: Response) => {
+  try {
+    const id = String(req.params.id);
+    const { quantity } = req.body;
+    const qty = Number(quantity);
+    if (Number.isNaN(qty) || !Number.isInteger(qty) || qty <= 0) {
+      return res.status(400).json({ error: "Invalid quantity" });
+    }
+
+    // Find or create inventory record
+    const prod = await prisma.product.findUnique({ where: { id } });
+    if (!prod) return res.status(404).json({ error: "Product not found" });
+
+    const inventory = await prisma.inventory.upsert({
+      where: { productId: id },
+      update: { quantity: { increment: qty } as any },
+      create: { productId: id, quantity: qty }
+    });
+
+    await safeDeletePattern("products:*");
+    await safeDeletePattern(`product:${id}`);
+
+    res.json({ productId: id, inventory });
+  } catch (err) {
+    res.status(500).json({ error: "Restock failed", details: err });
   }
 };

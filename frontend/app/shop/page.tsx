@@ -7,6 +7,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { ShoppingCart, Filter, Search } from "lucide-react"
 import { useState, useMemo } from "react"
+import { useCart } from "@/context/CartContext"
 
 type Product = {
   id: number
@@ -28,6 +29,7 @@ const allProducts: Product[] = [
 ]
 
 export default function ShopPage() {
+  const { addToCart } = useCart()
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
   const [searchTerm, setSearchTerm] = useState("")
   const [sortOption, setSortOption] = useState<SortOption>("default")
@@ -178,7 +180,18 @@ export default function ShopPage() {
                           {/* Add to Cart Button */}
                           <button
                             className="p-2 bg-primary text-white rounded-lg hover:bg-primary-dark transition-colors"
-                            onClick={(e) => { e.preventDefault() }}
+                            onClick={(e) => {
+                              // prevent the Link navigation and quick-add quantity 1
+                              e.preventDefault()
+                              e.stopPropagation()
+                              addToCart({
+                                id: product.id,
+                                name: product.name,
+                                price: product.price,
+                                image: product.image,
+                                category: product.category,
+                              }, 1)
+                            }}
                             title="Add to Cart"
                           >
                             <ShoppingCart className="w-5 h-5" />

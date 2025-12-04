@@ -1,9 +1,9 @@
-[00:00:28.270] Server  LOG      ○ Compiling middleware ...
-[00:00:39.626] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:00:46.555] Server  LOG      ✓ Ready in 39s
-[00:01:10.338] Server  LOG      ○ Compiling / ...
-[00:02:32.745] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
-[00:02:38.173] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:26.995] Server  LOG      ○ Compiling middleware ...
+[00:00:32.664] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:35.822] Server  LOG      ✓ Ready in 32s
+[00:00:58.728] Server  LOG      ○ Compiling / ...
+[00:01:31.725] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:01:32.015] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -31,44 +31,26 @@ It can also happen if the client has a browser extension installed which messes 
 -                   data-gr-ext-installed=""
                   >
 
-[00:02:38.173] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:02:38.173] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:02:38.173] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764676927696}
-[00:05:20.003] Server  LOG      ○ Compiling /sign-up ...
-[00:05:27.990] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/sign-up color: rgb(120, 120, 120) color: inherit {"dp":"/sign-up","o":"http://localhost:3001/sign-up","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764677097677}
-[00:05:31.122] Server  LOG      ○ Compiling /_not-found/page ...
-[00:05:31.320] Browser WARN    Clerk: The prop "redirectUrl" is deprecated and should be replaced with the new "fallbackRedirectUrl" or "forceRedirectUrl" props instead. Learn more: https://clerk.com/docs/guides/custom-redirects#redirect-url-props
-[00:05:38.541] Browser ERROR   unhandledRejection: Error: 
-Clerk: The <SignUp/> component is not configured correctly. The most likely reasons for this error are:
+[00:01:33.262] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:33.262] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:33.262] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764822720747}
+[00:01:40.887] Server  LOG      ○ Compiling /shop ...
+[00:01:47.610] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop color: rgb(120, 120, 120) color: inherit {"dp":"/shop","o":"http://localhost:3000/shop","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764822735271}
+[00:01:53.636] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764822741368}
+[00:02:07.025] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop color: rgb(120, 120, 120) color: inherit {"dp":"/shop","o":"http://localhost:3000/shop","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764822754741}
+[00:02:18.426] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/1 color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/1","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764822766156}
+[00:02:21.405] Server  LOG      ○ Compiling /api/products/[id] ...
+[00:02:26.505] Server  ERROR   C:\Users\uncommonstudent\Desktop\Software Dev Specialization\peak-commerce-app\frontend\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:26.573] Server  ERROR   C:\Users\uncommonstudent\Desktop\Software Dev Specialization\peak-commerce-app\frontend\.next\dev\server\chunks\[root-of-the-server]__a76072a1._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:26.592] Server  ERROR   C:\Users\uncommonstudent\Desktop\Software Dev Specialization\peak-commerce-app\frontend\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:26.605] Server  WARN    Error: Route "/api/products/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:27.048] Server  ERROR   C:\Users\uncommonstudent\Desktop\Software Dev Specialization\peak-commerce-app\frontend\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:27.142] Server  ERROR   C:\Users\uncommonstudent\Desktop\Software Dev Specialization\peak-commerce-app\frontend\.next\dev\server\chunks\[root-of-the-server]__a76072a1._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:27.175] Server  ERROR   C:\Users\uncommonstudent\Desktop\Software Dev Specialization\peak-commerce-app\frontend\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:27.199] Server  WARN    Error: Route "/api/products/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:31.047] Server  LOG      ○ Compiling /_not-found/page ...
+[00:02:55.124] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
 
-1. The "/sign-up" route is not a catch-all route.
-It is recommended to convert this route to a catch-all route, eg: "/sign-up/[[...rest]]/page.tsx". Alternatively, you can update the <SignUp/> component to use hash-based routing by setting the "routing" prop to "hash".
-
-2. The <SignUp/> component is mounted in a catch-all route, but all routes under "/sign-up" are protected by the middleware.
-To resolve this, ensure that the middleware does not protect the catch-all route or any of its children. If you are using the "createRouteMatcher" helper, consider adding "(.*)" to the end of the route pattern, eg: "/sign-up(.*)". For more information, see: https://clerk.com/docs/reference/nextjs/clerk-middleware#create-route-matcher
-
-[00:10:18.836] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
-[00:10:18.836] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:10:18.836] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:10:18.836] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764677388465}
-[00:10:28.575] Server  LOG      ○ Compiling /admin ...
-[00:11:02.926] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3001/admin","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764677430547}
-[00:11:23.621] Server  LOG      ○ Compiling /admin/orders ...
-[00:11:47.212] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764677476412}
-[00:12:56.617] Server  LOG      ○ Compiling /about ...
-[00:13:06.815] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3001/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764677556492}
-[00:13:15.532] Server  LOG      ○ Compiling /shop ...
-[00:13:19.967] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/shop color: rgb(120, 120, 120) color: inherit {"dp":"/shop","o":"http://localhost:3001/shop","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764677569653}
-[00:13:24.930] Server  LOG      ○ Compiling /products/[id] ...
-[00:14:05.002] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/products/1 color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3001/products/1","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764677614680}
-[00:14:08.116] Server  LOG      ○ Compiling /api/products/[id] ...
-[00:14:23.085] Server  ERROR   C:\Users\uncommonstudent\Desktop\Software Dev Specialization\peak-commerce-app\frontend\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:14:23.141] Server  ERROR   C:\Users\uncommonstudent\Desktop\Software Dev Specialization\peak-commerce-app\frontend\.next\dev\server\chunks\[root-of-the-server]__a76072a1._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:14:23.219] Server  ERROR   C:\Users\uncommonstudent\Desktop\Software Dev Specialization\peak-commerce-app\frontend\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:14:23.238] Server  WARN    Error: Route "/api/products/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:14:24.003] Server  ERROR   C:\Users\uncommonstudent\Desktop\Software Dev Specialization\peak-commerce-app\frontend\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:14:24.019] Server  ERROR   C:\Users\uncommonstudent\Desktop\Software Dev Specialization\peak-commerce-app\frontend\.next\dev\server\chunks\[root-of-the-server]__a76072a1._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:14:24.071] Server  ERROR   C:\Users\uncommonstudent\Desktop\Software Dev Specialization\peak-commerce-app\frontend\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:14:24.082] Server  WARN    Error: Route "/api/products/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:14:24.152] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:24.152] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+Check the render method of `CartPage`. 
+[00:02:55.124] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'toLocaleString')
+[00:02:55.124] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/cart color: rgb(120, 120, 120) color: inherit {"dp":"/cart","o":"http://localhost:3000/cart","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764822802485}

@@ -161,7 +161,8 @@ let products = {
         ]
     }
 };
-async function GET(request, { params }) {
+async function GET(request, context) {
+    const { params } = context;
     try {
         const product = products[params.id];
         if (!product) {
@@ -185,7 +186,8 @@ async function GET(request, { params }) {
         });
     }
 }
-async function PATCH(request, { params }) {
+async function PATCH(request, context) {
+    const { params } = context;
     try {
         const { userId } = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$app$2d$router$2f$server$2f$auth$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["auth"])();
         if (!userId) {
@@ -243,7 +245,8 @@ async function PATCH(request, { params }) {
         });
     }
 }
-async function DELETE(request, { params }) {
+async function DELETE(request, context) {
+    const { params } = context;
     try {
         const { userId } = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$Software__Dev__Specialization$2f$peak$2d$commerce$2d$app$2f$frontend$2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$app$2d$router$2f$server$2f$auth$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["auth"])();
         if (!userId) {

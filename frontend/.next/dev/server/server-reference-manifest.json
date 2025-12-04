@@ -14,14 +14,8 @@
           "exportedName": "formatMetadataHeaders",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
         },
-        "app/admin/orders/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/admin/orders/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "formatMetadataHeaders",
-          "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/admin/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+        "app/cart/page": {
+          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/cart/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "formatMetadataHeaders",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
@@ -43,23 +37,15 @@
           "async": false,
           "exportedName": "formatMetadataHeaders",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/sign-up/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/sign-up/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "formatMetadataHeaders",
-          "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
         }
       },
       "layer": {
         "app/_not-found/page": "rsc",
         "app/about/page": "rsc",
-        "app/admin/orders/page": "rsc",
-        "app/admin/page": "rsc",
+        "app/cart/page": "rsc",
         "app/page": "rsc",
         "app/products/[id]/page": "rsc",
-        "app/shop/page": "rsc",
-        "app/sign-up/page": "rsc"
+        "app/shop/page": "rsc"
       },
       "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js",
       "exportedName": "formatMetadataHeaders"
@@ -78,14 +64,8 @@
           "exportedName": "collectKeylessMetadata",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
         },
-        "app/admin/orders/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/admin/orders/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "collectKeylessMetadata",
-          "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/admin/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+        "app/cart/page": {
+          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/cart/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "collectKeylessMetadata",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
@@ -107,23 +87,15 @@
           "async": false,
           "exportedName": "collectKeylessMetadata",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/sign-up/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/sign-up/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "collectKeylessMetadata",
-          "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
         }
       },
       "layer": {
         "app/_not-found/page": "rsc",
         "app/about/page": "rsc",
-        "app/admin/orders/page": "rsc",
-        "app/admin/page": "rsc",
+        "app/cart/page": "rsc",
         "app/page": "rsc",
         "app/products/[id]/page": "rsc",
-        "app/shop/page": "rsc",
-        "app/sign-up/page": "rsc"
+        "app/shop/page": "rsc"
       },
       "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js",
       "exportedName": "collectKeylessMetadata"
@@ -142,14 +114,8 @@
           "exportedName": "detectKeylessEnvDriftAction",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
         },
-        "app/admin/orders/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/admin/orders/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "detectKeylessEnvDriftAction",
-          "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/admin/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+        "app/cart/page": {
+          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/cart/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "detectKeylessEnvDriftAction",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
@@ -171,23 +137,15 @@
           "async": false,
           "exportedName": "detectKeylessEnvDriftAction",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/sign-up/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/sign-up/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "detectKeylessEnvDriftAction",
-          "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
         }
       },
       "layer": {
         "app/_not-found/page": "action-browser",
         "app/about/page": "action-browser",
-        "app/admin/orders/page": "action-browser",
-        "app/admin/page": "action-browser",
+        "app/cart/page": "action-browser",
         "app/page": "action-browser",
         "app/products/[id]/page": "action-browser",
-        "app/shop/page": "action-browser",
-        "app/sign-up/page": "action-browser"
+        "app/shop/page": "action-browser"
       },
       "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
       "exportedName": "detectKeylessEnvDriftAction"
@@ -206,14 +164,8 @@
           "exportedName": "createOrReadKeylessAction",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
         },
-        "app/admin/orders/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/admin/orders/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "createOrReadKeylessAction",
-          "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/admin/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+        "app/cart/page": {
+          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/cart/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "createOrReadKeylessAction",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
@@ -235,23 +187,15 @@
           "async": false,
           "exportedName": "createOrReadKeylessAction",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/sign-up/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/sign-up/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "createOrReadKeylessAction",
-          "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
         }
       },
       "layer": {
         "app/_not-found/page": "action-browser",
         "app/about/page": "action-browser",
-        "app/admin/orders/page": "action-browser",
-        "app/admin/page": "action-browser",
+        "app/cart/page": "action-browser",
         "app/page": "action-browser",
         "app/products/[id]/page": "action-browser",
-        "app/shop/page": "action-browser",
-        "app/sign-up/page": "action-browser"
+        "app/shop/page": "action-browser"
       },
       "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
       "exportedName": "createOrReadKeylessAction"
@@ -270,14 +214,8 @@
           "exportedName": "syncKeylessConfigAction",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
         },
-        "app/admin/orders/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/admin/orders/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "syncKeylessConfigAction",
-          "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/admin/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+        "app/cart/page": {
+          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/cart/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "syncKeylessConfigAction",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
@@ -299,23 +237,15 @@
           "async": false,
           "exportedName": "syncKeylessConfigAction",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/sign-up/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/sign-up/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "syncKeylessConfigAction",
-          "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
         }
       },
       "layer": {
         "app/_not-found/page": "action-browser",
         "app/about/page": "action-browser",
-        "app/admin/orders/page": "action-browser",
-        "app/admin/page": "action-browser",
+        "app/cart/page": "action-browser",
         "app/page": "action-browser",
         "app/products/[id]/page": "action-browser",
-        "app/shop/page": "action-browser",
-        "app/sign-up/page": "action-browser"
+        "app/shop/page": "action-browser"
       },
       "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
       "exportedName": "syncKeylessConfigAction"
@@ -334,14 +264,8 @@
           "exportedName": "deleteKeylessAction",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
         },
-        "app/admin/orders/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/admin/orders/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "deleteKeylessAction",
-          "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/admin/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+        "app/cart/page": {
+          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/cart/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "deleteKeylessAction",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
@@ -363,23 +287,15 @@
           "async": false,
           "exportedName": "deleteKeylessAction",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/sign-up/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/sign-up/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "deleteKeylessAction",
-          "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
         }
       },
       "layer": {
         "app/_not-found/page": "action-browser",
         "app/about/page": "action-browser",
-        "app/admin/orders/page": "action-browser",
-        "app/admin/page": "action-browser",
+        "app/cart/page": "action-browser",
         "app/page": "action-browser",
         "app/products/[id]/page": "action-browser",
-        "app/shop/page": "action-browser",
-        "app/sign-up/page": "action-browser"
+        "app/shop/page": "action-browser"
       },
       "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
       "exportedName": "deleteKeylessAction"
@@ -398,14 +314,8 @@
           "exportedName": "invalidateCacheAction",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
         },
-        "app/admin/orders/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/admin/orders/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "invalidateCacheAction",
-          "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
-        },
-        "app/admin/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+        "app/cart/page": {
+          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/cart/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "invalidateCacheAction",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
@@ -427,23 +337,15 @@
           "async": false,
           "exportedName": "invalidateCacheAction",
           "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
-        },
-        "app/sign-up/page": {
-          "moduleId": "[project]/Software Dev Specialization/peak-commerce-app/frontend/.next-internal/server/app/sign-up/page/actions.js { ACTIONS_MODULE0 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "invalidateCacheAction",
-          "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
         }
       },
       "layer": {
         "app/_not-found/page": "action-browser",
         "app/about/page": "action-browser",
-        "app/admin/orders/page": "action-browser",
-        "app/admin/page": "action-browser",
+        "app/cart/page": "action-browser",
         "app/page": "action-browser",
         "app/products/[id]/page": "action-browser",
-        "app/shop/page": "action-browser",
-        "app/sign-up/page": "action-browser"
+        "app/shop/page": "action-browser"
       },
       "filename": "Software Dev Specialization/peak-commerce-app/frontend/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js",
       "exportedName": "invalidateCacheAction"
